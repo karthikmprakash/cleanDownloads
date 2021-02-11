@@ -84,7 +84,9 @@ Yes, it can be partially if not fully solved by sorting the files into specific 
 
 Here's how:
 * Python comes in for the rescue with its immense versatility and ease of use!
-*  
+* Lets have a watchdog who waits for any changes in the target folder 
+* Lets make a list of extensions we already know about and the designated folder it should end up in
+* Loop through the files and move them with the `move` command of `shutil` library
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
 
