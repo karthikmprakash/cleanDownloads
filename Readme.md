@@ -31,7 +31,7 @@
   <h3 align="center">Folder Automation - Auto Sorting</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Easy auto sorting any cluttered folder into descrete categories 
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
@@ -79,12 +79,12 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+We have all been through the most tiring and boring work looking for one important document through cluttered desktop or downloads folder! 
+Yes, it can be partially if not fully solved by sorting the files into specific folder depending on the file extensions. But again, who has the time to sort stuff! Automation can help us here
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+Here's how:
+* Python comes in for the rescue with its immense versatility and ease of use!
+*  
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
 
