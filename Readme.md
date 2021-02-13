@@ -182,6 +182,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 ## Acknowledgements
 * [File and Directory exisits](https://stackoverflow.com/questions/45113304/if-file-and-directory-exists)
 * [To get current Windows User Name](https://stackoverflow.com/questions/13654122/how-to-make-python-get-the-username-in-windows-and-then-implement-it-in-a-script)
+* [Watchdog integration](https://stackoverflow.com/questions/23479511/running-a-python-script-when-a-new-file-is-created)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
