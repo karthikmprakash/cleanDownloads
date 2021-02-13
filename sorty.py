@@ -27,7 +27,7 @@ video_dir = '/Users/{}/Downloads/Videos/'.format(user)
 
 # category wise file types 
 doc_types = ('.doc', '.docx', '.txt', '.pdf', '.xls', '.ppt', '.xlsx', '.pptx', '.md','.rtf','.tex')
-img_types = ('.jpg', '.jpeg', '.png', '.svg', '.gif', '.tif', '.tiff','.psd','.bmp')
+img_types = ('.cr2','.jpg', '.jpeg', '.png', '.svg', '.gif', '.tif', '.tiff','.psd','.bmp')
 video_types= ('.3gp','.mkv','.avi','.mov','.mpg','.mpeg','.wmv','.h264')
 software_types = ('.exe','.msi')
 compressed_types =('.zip','.tar','.rar','.iso','.7z')
@@ -46,38 +46,43 @@ def move_files(files):
 
     for file in files:
         try:
-            if file.endswith(doc_types):
-                move(os.path.join(root_dir,file),document_dir) 
+            if file.lower().endswith(doc_types):
+                dest_dir = '/Users/{}/Downloads/Documents/'.format(user)
+               
+            
+            elif file.lower().endswith(img_types):
+                dest_dir = '/Users/{}/Downloads/Images/'.format(user)
                 
             
-            elif file.endswith(img_types):
-                move(os.path.join(root_dir,file),image_dir)
+            elif file.lower().endswith(video_types):
+                dest_dir = '/Users/{}/Downloads/Videos/'.format(user)
                 
-            elif file.endswith(video_types):
-                move(os.path.join(root_dir,file),video_dir)
 
-            elif file.endswith(software_types):
-                move(os.path.join(root_dir,file),software_dir)
+            elif file.lower().endswith(software_types):
+                dest_dir = '/Users/{}/Downloads/Softwares/'.format(user)
+               
             
-            elif file.endswith(compressed_types):
-                move(os.path.join(root_dir,file),compressed_dir)
-            
-            elif file.endswith(programming_types):
-                move(os.path.join(root_dir,file),code_dir)
+            elif file.lower().endswith(compressed_types):
+                dest_dir = '/Users/{}/Downloads/Compressed/'.format(user)
 
-            elif file.endswith(database_types):
-                move(os.path.join(root_dir,file),database_dir)
+            
+            elif file.lower().endswith(programming_types):
+                dest_dir = '/Users/{}/Downloads/Codes/'.format(user)
+
+            elif file.lower().endswith(database_types):
+                dest_dir = '/Users/{}/Downloads/Databases/'.format(user)
+
 
             else : 
                 continue
-            
-        except (FileNotFoundError , FileExistsError) :
-            print(IOError)
 
+            move(os.path.join(root_dir,file),dest_dir)
+            
+        except IOError:
+            pass
 
 # Calling the sorting function 
 if __name__ == "__main__":
-        
     files = get_non_hidden_files(root_dir) # Returns the files that are not hidden 
     move_files(files)
 

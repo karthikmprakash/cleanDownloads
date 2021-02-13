@@ -87,17 +87,17 @@ Here's how:
 * Lets have a watchdog who waits for any changes in the target folder 
 * Lets make a list of extensions we already know about and the designated folder it should end up in
 * Loop through the files and move them with the `move` command of `shutil` library
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+* `pyinstaller` is used to create an executable to run the script without having to install any other dependancies 
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+This section should list any major modules that is used in this project.
+* [os](https://docs.python.org/3/library/os.html)
+* [watchdog](https://pypi.org/project/watchdog/)
+* [pyinstaller](https://pyinstaller.readthedocs.io/en/stable/)
+* [shutil](https://docs.python.org/3/library/shutil.html)
 
 
 
@@ -165,14 +165,14 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Open! 
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - Karthik M Prakash [@karthikmprakash](https://twitter.com/your_username) - mkarthikprakash.work@gmail.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
@@ -180,20 +180,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
-
-
-
+* [File and Directory exisits](https://stackoverflow.com/questions/45113304/if-file-and-directory-exists)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
