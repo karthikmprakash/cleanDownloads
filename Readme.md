@@ -1,8 +1,5 @@
 # Clean Downloads Folder
 
-[Medium Article on Organizing files](https://medium.com/swlh/automation-python-organizing-files-5d2b6b933402) 
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
