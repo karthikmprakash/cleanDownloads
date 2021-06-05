@@ -99,7 +99,9 @@ This section should list any major modules that is used in this project.
 * [pyinstaller](https://pyinstaller.readthedocs.io/en/stable/)
 * [shutil](https://docs.python.org/3/library/shutil.html)
 
+### References Used
 
+**code to cactegorize and move files :** https://medium.com/swlh/automation-python-organizing-files-5d2b6b933402
 
 <!-- GETTING STARTED -->
 ## Getting Started
