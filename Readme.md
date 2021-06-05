@@ -119,7 +119,12 @@ Windows Machine : The code is written for windows machine. You can customize it 
    import os
    os.getlogin()
    ```
-
+5. To convert the python package into a executable 
+  ```sh
+  pip install pyinstaller
+  pyinstaller --onefile -w your_python_file.py
+  ```
+  The ```--onefile``` bundles up everything into one file to be executed. ``` -w ``` is used to when your program does not require command prompt for execution
 
 
 <!-- USAGE EXAMPLES -->
