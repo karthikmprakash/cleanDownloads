@@ -33,11 +33,6 @@
   <p align="center">
     Easy auto sorting any cluttered folder into descrete categories 
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
@@ -99,9 +94,6 @@ This section should list any major modules that is used in this project.
 * [pyinstaller](https://pyinstaller.readthedocs.io/en/stable/)
 * [shutil](https://docs.python.org/3/library/shutil.html)
 
-### References Used
-
-**code to cactegorize and move files :** https://medium.com/swlh/automation-python-organizing-files-5d2b6b933402
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -119,18 +111,23 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1.  Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/karthikmprakash/cleanDownloads.git
    ```
-3. Install NPM packages
+2. If you want to Install the executable
    ```sh
-   npm install
+   cd \build
+   main.exe
    ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
+3. Install all packages
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. Check if your user directory name is same as your user name
+   ```python
+   import os
+   os.getlogin()
    ```
 
 
@@ -185,7 +182,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 * [File and Directory exisits](https://stackoverflow.com/questions/45113304/if-file-and-directory-exists)
 * [To get current Windows User Name](https://stackoverflow.com/questions/13654122/how-to-make-python-get-the-username-in-windows-and-then-implement-it-in-a-script)
 * [Watchdog integration](https://stackoverflow.com/questions/23479511/running-a-python-script-when-a-new-file-is-created)
-
+* [code to cactegorize and move files](https://medium.com/swlh/automation-python-organizing-files-5d2b6b933402)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
