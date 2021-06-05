@@ -12,9 +12,8 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Contributors][contributors-shield]][contributors-url]
+
 [![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -24,7 +23,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/karthikmprakash/cleanDownloads">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -33,9 +32,9 @@
   <p align="center">
     Easy auto sorting any cluttered folder into descrete categories 
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/karthikmprakash/cleanDownloads/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/karthikmprakash/cleanDownloads/issues">Request Feature</a>
   </p>
 </p>
 
@@ -98,16 +97,11 @@ This section should list any major modules that is used in this project.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+If you want to test it out locally on your machine. Follow these steps below
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Windows Machine : The code is written for windows machine. You can customize it by changing the directory path as required
 
 ### Installation
 
@@ -117,7 +111,7 @@ This is an example of how to list things you need to use the software and how to
    ```
 2. If you want to Install the executable
    ```sh
-   cd \build
+   cd cleanDownloads\build
    main.exe
    ```
 3. Install all packages
@@ -135,16 +129,16 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+The project can be reprogrammed to ones requirements, you can set up a routine or any action trigger like environment. for ex: 
+* Rename files in a folder with a predefined structure. 
+* For photographers, create folders automatically when you import photos into the coomputer.  
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/karthikmprakash/cleanDownloads/issues) for a list of proposed features (and known issues).
 
 
 
@@ -173,7 +167,7 @@ Open!
 
 Your Name - Karthik M Prakash [@karthikmprakash](https://twitter.com/your_username) - mkarthikprakash.work@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/karthikmprakash/cleanDownloads](https://github.com/karthikmprakash/cleanDownloads)
 
 
 
