@@ -19,10 +19,10 @@ class FolderHandler(FileSystemEventHandler):
         sr.move_files(files)
 
 
-user = os.getlogin() 												# make sure your user folder is as the same name of your username or else it wont work!
+user = os.getlogin()    # make sure your user folder is as the same name of your username or else it wont work!
 observer = Observer()
-event_handler = FolderHandler() 									# create event handler
-observer.schedule(event_handler, path=f'C:/Users/{user}/Downloads') # set observer to use created handler in directory
+event_handler = FolderHandler()     # create event handler
+observer.schedule(event_handler, path=f'C:/Users/{user}/Downloads')     # set observer to use created handler in directory
 observer.start()
 
 # sleep until keyboard interrupt, then stop + rejoin the observer
