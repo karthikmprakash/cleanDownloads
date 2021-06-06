@@ -22,7 +22,6 @@ class FolderHandler(FileSystemEventHandler):
 user = os.getlogin() 												# make sure your user folder is as the same name of your username or else it wont work!
 observer = Observer()
 event_handler = FolderHandler() 									# create event handler
-
 observer.schedule(event_handler, path=f'C:/Users/{user}/Downloads') # set observer to use created handler in directory
 observer.start()
 
@@ -34,8 +33,3 @@ except KeyboardInterrupt:
     observer.stop()
 
 observer.join()
-
-
-
-
-## https://stackoverflow.com/questions/45113304/if-file-and-directory-exists
