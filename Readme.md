@@ -15,7 +15,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/karthikmprakash/cleanDownloads">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://img.icons8.com/color/96/000000/folder-invoices--v1.png"/>
   </a>
 
   <h3 align="center">Folder Automation - Auto Sorting</h3>
