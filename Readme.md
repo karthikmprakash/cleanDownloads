@@ -126,7 +126,7 @@ Windows Machine : The code is written for windows machine. You can customize it 
 
 The project can be reprogrammed to ones requirements, you can set up a routine or any action trigger like environment. for ex: 
 * Rename files in a folder with a predefined structure. 
-* For photographers, create folders automatically when you import photos into the coomputer.  
+  
 
 
 
